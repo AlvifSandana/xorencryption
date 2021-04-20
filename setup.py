@@ -1,6 +1,5 @@
 """
 Module: setup.py
-
 Created by alvif@usagi 
 on 20/04/21
 """
