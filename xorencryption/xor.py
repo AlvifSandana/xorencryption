@@ -60,7 +60,8 @@ class XOREncryption:
         """
         return self.__ciphertext
 
-    def __generate_bytearray(self, data=''):
+    @staticmethod
+    def __generate_bytearray(data=''):
         """
         Generate bytearray from input data (data as string)
 
@@ -69,7 +70,8 @@ class XOREncryption:
         """
         return bytearray(data, encoding='utf-8')
 
-    def __generate_binary(self, data):
+    @staticmethod
+    def __generate_binary(data):
         """
         Generate list of binary from input data (data as bytearray)
 
@@ -91,7 +93,8 @@ class XOREncryption:
             list_tmp = []
         return generated
 
-    def __generate_xor_list(self, plain_text_bin_list: list, key_bin_list: list) -> list:
+    @staticmethod
+    def __generate_xor_list(plain_text_bin_list: list, key_bin_list: list) -> list:
         """
 
         :param plain_text_bin_list:
@@ -112,7 +115,8 @@ class XOREncryption:
             tmp = []
         return generated_xor_list
 
-    def __join_xor(self, xor_list: list) -> list:
+    @staticmethod
+    def __join_xor(xor_list: list) -> list:
         """
         Join elements of list that represents binary value
         to the list of binary.
@@ -131,7 +135,8 @@ class XOREncryption:
             tmp = []
         return xor_bin
 
-    def binary_to_decimal(self, data: list) -> list:
+    @staticmethod
+    def binary_to_decimal(data: list) -> list:
         """
         Convert list of binary to the list of decimal.
         Example: ['0b00110001', '0b00100010', '0b00111000'] => [49, 34, 56]
@@ -144,7 +149,8 @@ class XOREncryption:
             decimal.append(int(d, 2))
         return decimal
 
-    def decimal_to_ascii(self, data: list) -> str:
+    @staticmethod
+    def decimal_to_ascii(data: list) -> str:
         """
         Convert elements of number list to string.
         Example: [41, 42, 43] => "ABC"
