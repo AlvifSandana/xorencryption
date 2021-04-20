@@ -10,8 +10,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='xorencryption',
-    packages=['xorencryption'],
-    version='0.1.2',
+    packages=setuptools.find_packages(where="src"),
+    version='0.1.5',
     license='MIT',
     description='little Python library for encrypt and decrypt using XOR operation.',
     long_description=long_description,
@@ -28,4 +28,6 @@ setuptools.setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
     ],
+    package_dir={"": "src"},
+    python_requires=">=3.7",
 )

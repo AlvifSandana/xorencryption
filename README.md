@@ -22,18 +22,19 @@ Note:
 
 ### How to Use
 Example code:
-```python
-from xorencryption.xor import XOREncryption
+
+```
+from xorencryption import XOREncryption
 
 plain = "this is your plain text"
 key = "boom"
-enc = XOREncryption() 
+enc = XOREncryption()
 
 enc.set_plaintext(plaintext=plain)
 enc.set_key(key=key)
 
-print(enc.encrypt()) # return cipher text
-print(enc.decrypt()) # return decrypted text
+print(enc.encrypt())  # return cipher text
+print(enc.decrypt())  # return decrypted text
 ```
 
 
