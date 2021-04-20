@@ -4,13 +4,18 @@ Created by alvif@usagi
 on 20/04/21
 """
 from distutils.core import setup
+
+with open("README.md", "r", encoding="utf-8") as fh:
+  long_description = fh.read()
+
 setup(
   name='xorencryption',
   packages=['xorencryption'],
-  version='0.1',
+  version='0.1.2',
   license='MIT',
-  description='TYPE YOUR DESCRIPTION HERE',
-  author='ALVIF SANDANA MAHARDIKA',
+  description='little Python library for encrypt and decrypt using XOR operation.',
+  long_description=long_description,
+  author='Alvif Sandana Mahardika',
   author_email='alvifsandana@gmail.com',
   url='https://github.com/AlvifSandana/xorencryption',
   download_url='https://github.com/AlvifSandana/xorencryption/',
