@@ -35,3 +35,5 @@ enc.set_key(key=key)
 print(enc.encrypt()) # return cipher text
 print(enc.decrypt()) # return decrypted text
 ```
+
+
