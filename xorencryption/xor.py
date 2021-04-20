@@ -120,7 +120,8 @@ class XOREncryption:
         """
         Join elements of list that represents binary value
         to the list of binary.
-        Example: [[0, 1, 0, 0, 1, 0, 1, 1], [0, 1, 0, 0, 0, 0, 0, 1]] to ['0b01001011', '0b01000001']
+        Example: [[0, 1, 0, 0, 1, 0, 1, 1], [0, 1, 0, 0, 0, 0, 0, 1]] to
+        ['0b01001011', '0b01000001']
 
         :param xor_list: list
         :return: list
@@ -166,8 +167,8 @@ class XOREncryption:
 
     def encrypt(self):
         """
-        Encrypt string by convert each plain text and key character to binary then
-        do XOR operation between binary plain text and key.
+        Encrypt string by convert each plain text and key character to binary
+        then do XOR operation between binary plain text and key.
 
         :return: str
         """
@@ -202,8 +203,8 @@ class XOREncryption:
 
     def decrypt(self):
         """
-        Decrypt cipher text by convert each characters (also key) to binary then
-        do XOR operation between binary cipher text and key.
+        Decrypt cipher text by convert each characters (also key) to binary
+        then do XOR operation between binary cipher text and key.
 
         :return: str
         """
