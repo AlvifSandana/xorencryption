@@ -151,7 +151,7 @@ class XOREncryption:
     def decimal_to_ascii(data: list) -> str:
         """
         Convert elements of number list to string.
-        Example: [41, 42, 43] => "ABC"
+        Example: [65, 66, 67] => "ABC"
 
         :param data: list of number (integer)
         :return: string
