@@ -171,7 +171,7 @@ class XOREncryption:
         """
         try:
             # plain text and key
-            plain_text = self.__plaintext.upper()
+            plain_text = self.__plaintext
             key = self.__key
 
             # Generate bytearray from plain text and key
