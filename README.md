@@ -1,6 +1,4 @@
 # XOR Encryption
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/AlvifSandana/xorencryption.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/AlvifSandana/xorencryption/alerts/)
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/AlvifSandana/xorencryption.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/AlvifSandana/xorencryption/context:python) 
 
 XOR Encryption is a little Python library for encrypt and decrypt string with key. 
 This library is for those of you who are learning encryption using the XOR method.
